@@ -253,7 +253,7 @@ class _MainFormPageState extends State<MainFormPage> {
                 SizedBox(height: 10),
                 Link(
                   target: LinkTarget.blank, // new browser, not in app
-                  uri: Uri.parse('http://fluttercrypto.bplaced.net/flutter-rsa-signature_ninja/'),
+                  uri: Uri.parse('http://fluttercrypto.bplaced.net/flutter-rsa-signature-playground-ninja/'),
                   builder: (context, followLink) => GestureDetector(
                     onTap: followLink,
                     child: linkWidget(),
