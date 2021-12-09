@@ -58,8 +58,8 @@ class _MainFormPageState extends State<MainFormPage> {
       padding: const EdgeInsets.all(10.0),
       decoration: linkBoxDecoration(), // <--- BoxDecoration here
       child: Text(
-        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/flutter-rsa-signature-playground-ninja',
-        //'Program description: http://fluttercrypto.bplaced.net/flutter-rsa-playground',
+        'Beschreibung des Programms: http://fluttercrypto.bplaced.net/rsa-signature-playground-ninja/',
+        //'Program description: http://fluttercrypto.bplaced.net/rsa-signature-playground-ninja/',
         style: TextStyle(
           fontSize: 18,
           color: Colors.blue,
@@ -82,7 +82,7 @@ class _MainFormPageState extends State<MainFormPage> {
             '\nninja_dart Version 3.0.7'
             '\nhttps://pub.dev/packages/ninja',
         style: TextStyle(
-          fontSize: 14,
+          fontSize: 18,
           color: Colors.blue,
           decoration: TextDecoration.none,
         ),
@@ -253,7 +253,7 @@ class _MainFormPageState extends State<MainFormPage> {
                 SizedBox(height: 10),
                 Link(
                   target: LinkTarget.blank, // new browser, not in app
-                  uri: Uri.parse('http://fluttercrypto.bplaced.net/flutter-rsa-signature-playground-ninja/'),
+                  uri: Uri.parse('http://fluttercrypto.bplaced.net/rsa-signature-playground-ninja/'),
                   builder: (context, followLink) => GestureDetector(
                     onTap: followLink,
                     child: linkWidget(),

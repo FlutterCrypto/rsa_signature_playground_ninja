@@ -1,5 +1,7 @@
 # rsa_signature_playground_ninja
 
+For more information see here: http://fluttercrypto.bplaced.net/rsa-signature-playground-ninja/
+
 https://pub.dev/packages/ninja
 
 https://github.com/ninja-dart/ninja
